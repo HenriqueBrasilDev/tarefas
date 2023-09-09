@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+}
+
+form{
+    width: 350px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.tarefas{
+    background-color: rgba(255, 231, 203, 0.562);
+    padding: 10px;
+    border-radius: 3px;
+    height: 300px;
+    position: relative;
+}
+
+.tarefas h1{
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.603));
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 30px;
+    transition: 3s;
+}
+
+.tarefas input{
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.082);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    height: 40px;
+}
+
+.tarefas #add{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.tarefas #add:hover{
+    background-image: linear-gradient(rgb(75, 192, 60), rgb(39, 148, 54));
+    border-radius: 2px;
+}
+
+.lista{
+    height: 50%;
+    overflow-y: auto;
+}
+
+.lista li{
+    list-style: none;
+    margin: 10px 0;
+    border-bottom: solid 2px rgba(0, 119, 255, 0.445);
+    cursor: pointer;
+}
+
+.sublinhado{
+    text-decoration: line-through;
+}
+
+.none{
+    display: none;
+}
+
+#add{
+    margin: 0 auto;
+}
+
